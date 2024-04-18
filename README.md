@@ -24,7 +24,7 @@ The generated samples will be collected in `sample/{model_name}/{text_length}.js
 
 ### Step 2: Evaluate SaMIA on LLMs using the generated samples
 
-We evalaute the leakage detection performance of SaMIA based on the surface similarity between generated samples, under the directory `sample/`, and the original texts, under the directory `wikimia/`.
+We evaluate the leakage detection performance of SaMIA based on the surface similarity between generated samples, under the directory `sample/`, and the original texts, under the directory `wikimia/`.
 The surface similarity is measured using ROUGE-N (N=1).
 Evaluation can be conducted using the following command:
 ```
